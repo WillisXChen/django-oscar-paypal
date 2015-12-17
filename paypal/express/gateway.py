@@ -184,7 +184,7 @@ def set_txn(basket, shipping_methods, currency, return_url, cancel_url, update_u
     # PAYMENTREQUEST_0_AMT should include tax, shipping and handling
     params.update({
         'PAYMENTREQUEST_0_AMT': amount,
-        'PAYMENTREQUEST_0_CURRENCYCODE': currency,
+        'PAYMENTREQUEST_0_CURRENCYCODE': 'USD',
         'RETURNURL': return_url,
         'CANCELURL': cancel_url,
         'PAYMENTREQUEST_0_PAYMENTACTION': action,

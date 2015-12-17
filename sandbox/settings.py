@@ -277,12 +277,13 @@ PAYPAL_API_VERSION = '119'
 
 # These are the standard PayPal sandbox details from the docs - but I don't
 # think you can get access to the merchant dashboard.
-PAYPAL_API_USERNAME = 'sdk-three_api1.sdk.com'
-PAYPAL_API_PASSWORD = 'QFZCWN5HZM8VBG7Q'
-PAYPAL_API_SIGNATURE = 'A-IzJhZZjhg29XQ2qnhapuwxIDzyAZQ92FRP5dqBzVesOkzbdUONzmOU'
+PAYPAL_API_USERNAME = 'goldminebit.gantt_api1.gmail.com'
+PAYPAL_API_PASSWORD = 'QREEHCKWW6JPDRY9'
+PAYPAL_API_SIGNATURE = 'AFcWxV21C7fd0v3bYYYRCpSSRl31A8ucMKx0zGC901atTxkvahJCZ7eH'
+PAYPAL_PAYFLOW_VENDOR_ID = 'goldminebit.gantt_api1.gmail.com'
 
 # Standard currency is GBP
-PAYPAL_CURRENCY = PAYPAL_PAYFLOW_CURRENCY = 'GBP'
+PAYPAL_CURRENCY = PAYPAL_PAYFLOW_CURRENCY = 'USD'
 PAYPAL_PAYFLOW_DASHBOARD_FORMS = True
 
 # Put your own sandbox settings into an integration.py modulde (that is ignored

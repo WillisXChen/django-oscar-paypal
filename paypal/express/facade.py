@@ -36,7 +36,7 @@ def get_paypal_url(basket, shipping_methods, user=None, shipping_address=None,
     if basket.currency:
         currency = basket.currency
     else:
-        currency = getattr(settings, 'PAYPAL_CURRENCY', 'GBP')
+        currency = getattr(settings, 'PAYPAL_CURRENCY', 'USD')
     if host is None:
         host = Site.objects.get_current().domain
     if scheme is None:
